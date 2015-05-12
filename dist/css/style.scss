@@ -1,0 +1,62 @@
+.black {
+	background:#333333;
+}
+
+.top {
+	background:#333333;
+	color:#CCCCCC;
+	font-size:2.2rem;
+}
+
+#latin-top {
+	background:#333333;
+	color:#CCCCCC;
+	font-size:1.25rem;
+	// font-size:0.5rem;	
+}
+
+img {
+	background:cover;
+}
+
+.cover {
+	display:inline-block;
+	background:#333333;
+}
+
+.img-responsive {
+	background: url(../logo.png) center;
+	background-size: cover;
+	height:200px;
+}
+
+.gray {
+	background:#CCCCCC;
+	margin-bottom:2rem;
+	h1 {
+		font-size: 2.2rem;
+	}
+	p {
+		font-size: 1.25rem;
+		padding-bottom:1rem;
+	}
+	.btn-primary {
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom: 1rem;
+	}
+}
+
+.benefits {
+	h1{
+		font-size: 2rem;
+	}
+	p {
+		font-size: 1.25rem;
+	}
+}
+
+
+
+
