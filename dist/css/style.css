@@ -1,6 +1,7 @@
 .black {
   background: #333333;
-  color: #CCCCCC; }
+  color: #CCCCCC;
+  padding-top: 1.2rem; }
 
 .top {
   background: #333333;
@@ -36,10 +37,6 @@ img {
   margin-right: auto;
   margin-bottom: 1rem; }
 
-.kittens div {
-  float: left;
-  clear: left; }
-
 .welcome {
   margin-bottom: 2rem; }
 
@@ -48,3 +45,7 @@ p {
 
 h1 {
   font-size: 2rem; }
+
+@media (min-width: 768px) {
+  .btn-primary {
+    margin-top: 4rem; } }

@@ -1,6 +1,7 @@
 .black {
 	background:#333333;
 	color:#CCCCCC;
+	padding-top:1.2rem;
 }
 
 .top {
@@ -46,9 +47,10 @@ img {
 }
 
 .kittens {
-	div {
-		float:left;
-		clear:left;
+	.img-responsive {
+		// width:30%;
+		// float:left;
+		// clear:left;
 	}
 }
 
@@ -64,3 +66,8 @@ h1 {
 	font-size: 2rem;
 }
 
+@media (min-width:768px) {
+	.btn-primary {
+		margin-top:4rem;
+	}
+}
