@@ -13,8 +13,7 @@
 #latin-top {
 	background:#333333;
 	color:#CCCCCC;
-	font-size:1.25rem;
-	// font-size:0.5rem;	
+	font-size:1.25rem;	
 }
 
 img {
@@ -29,7 +28,6 @@ img {
 .img-responsive {
 	background-position:center;
 	background-size: cover;
-	// height:200px;
 }
 
 .gray {
@@ -46,14 +44,6 @@ img {
 	}
 }
 
-.kittens {
-	.img-responsive {
-		// width:30%;
-		// float:left;
-		// clear:left;
-	}
-}
-
 .welcome {
 	margin-bottom:2rem;
 }
@@ -66,8 +56,18 @@ h1 {
 	font-size: 2rem;
 }
 
+.container {
+	width:100%;
+}
+
 @media (min-width:768px) {
 	.btn-primary {
 		margin-top:4rem;
+	}
+	.kittens {
+	text-align:center;
+	.img-responsive{
+		margin:0 auto;
+		}
 	}
 }

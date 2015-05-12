@@ -46,6 +46,13 @@ p {
 h1 {
   font-size: 2rem; }
 
+.container {
+  width: 100%; }
+
 @media (min-width: 768px) {
   .btn-primary {
-    margin-top: 4rem; } }
+    margin-top: 4rem; }
+  .kittens {
+    text-align: center; }
+  .kittens .img-responsive {
+    margin: 0 auto; } }
